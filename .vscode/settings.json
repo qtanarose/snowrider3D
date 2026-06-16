@@ -1,6 +1,7 @@
 {
     "codeBlocks.colors.enabled": true,
     "codeBlocks.ignoredLanguageIds": [
+        "git-commit",
         "javascriptreact",
         "aspnetcorerazor",
         "plaintext",
