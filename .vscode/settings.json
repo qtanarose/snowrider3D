@@ -1,3 +1,10 @@
 {
-    "codeBlocks.colors.enabled": true
+    "codeBlocks.colors.enabled": true,
+    "codeBlocks.ignoredLanguageIds": [
+        "javascriptreact",
+        "aspnetcorerazor",
+        "plaintext",
+        "Log",
+        "ignore"
+    ]
 }

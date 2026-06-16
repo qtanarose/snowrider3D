@@ -1,0 +1,281 @@
+2026-06-15 18:34:28.770 [info] [Main] StorageMainService: creating application shared storage
+2026-06-15 18:34:29.073 [info] [Main] [shared storage] Creating shared storage database at '/Users/quinncohen/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-15 18:34:29.074 [info] [Main] [shared storage] Initializing fallback application storage (path: /Users/quinncohen/Library/Application Support/Code/User/globalStorage/state.vscdb)
+2026-06-15 18:34:29.108 [info] [Main] [shared storage] Fallback application storage initialized with 169 items
+2026-06-15 18:34:29.113 [info] [Main] update#setState idle
+2026-06-15 18:34:30.613 [error] [Main] vscode-file: Refused to load resource /Volumes/VS Code/Visual Studio Code.app/Contents/Resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/Volumes/VS%20Code/Visual%20Studio%20Code.app/Contents/Resources/app/extensions/theme-seti/icons/seti.woff)
+2026-06-15 18:34:59.115 [info] [Main] update#setState checking for updates
+2026-06-15 18:34:59.333 [info] [Main] update#setState idle
+2026-06-15 19:13:05.533 [info] [Terminal] RunInTerminalTool: Command rewritten by FGe: Prepended with a space to exclude from shell history []
+2026-06-15 19:13:05.593 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'","find . -maxdepth 4 \\( -type d -name Assets -o -name ProjectSettings -o -name Packages \\)","sort","head -200"]]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands auto-approved [null]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'' is approved by allow list rule: cd [null]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'find . -maxdepth 4 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \)' is approved by allow list rule: find [null]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'sort' is approved by allow list rule: sort [null]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -200' is approved by allow list rule: head [null]
+2026-06-15 19:13:05.594 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 4 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \) | sort | head -200' has no matching auto approve entries [null]
+2026-06-15 19:13:05.600 [info] [Terminal] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-06-15 19:13:08.076 [info] [Terminal] ToolTerminalCreator#createTerminal: Waiting 5000ms for shell integration []
+2026-06-15 19:13:08.079 [info] [Terminal] ToolTerminalCreator#_waitForShellIntegration: base 5000ms, effective 5000ms, screenReaderOptimized=false []
+2026-06-15 19:13:08.092 [info] [Terminal] Latency measurements for local backend
+window<->ptyhost (message port): 0.40ms
+window<->ptyhostservice<->ptyhost: 0.80ms
+ptyhostservice<->ptyhost: 0.25ms []
+2026-06-15 19:13:13.078 [info] [Terminal] ToolTerminalCreator#_waitForShellIntegration: Timed out 5000ms, using no SI []
+2026-06-15 19:13:13.079 [info] [Terminal] ToolTerminalCreator#_waitForShellIntegration: Promise complete, disposing store []
+2026-06-15 19:13:13.085 [info] [Terminal] RunInTerminalTool: Using `none` execute strategy for command ` cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 4 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \) | sort | head -200` []
+2026-06-15 19:13:15.210 [info] [Terminal] RunInTerminalTool: Finished `none` execute strategy with exitCode `undefined`, result.length `54`, error `undefined` []
+2026-06-15 19:13:15.210 [info] [Terminal] RunInTerminalTool: shellIntegrationQuality=none at banner decision time []
+2026-06-15 19:13:18.496 [info] [Terminal] RunInTerminalTool: Command rewritten by FGe: Prepended with a space to exclude from shell history []
+2026-06-15 19:13:18.509 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'","find . -maxdepth 6 \\( -type d -name Assets -o -name ProjectSettings -o -name Packages -o -name '*.unity' \\)","sort","head -200"]]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands auto-approved [null]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'' is approved by allow list rule: cd [null]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'find . -maxdepth 6 \( -type d -name Assets -o -name ProjectSettings -o -name Packages -o -name '*.unity' \)' is approved by allow list rule: find [null]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'sort' is approved by allow list rule: sort [null]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -200' is approved by allow list rule: head [null]
+2026-06-15 19:13:18.510 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 6 \( -type d -name Assets -o -name ProjectSettings -o -name Packages -o -name '*.unity' \) | sort | head -200' has no matching auto approve entries [null]
+2026-06-15 19:13:18.515 [info] [Terminal] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-06-15 19:13:21.736 [info] [Terminal] RunInTerminalTool: Using `none` execute strategy for command ` cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 6 \( -type d -name Assets -o -name ProjectSettings -o -name Packages -o -name '*.unity' \) | sort | head -200` []
+2026-06-15 19:13:23.839 [info] [Terminal] RunInTerminalTool: Finished `none` execute strategy with exitCode `undefined`, result.length `54`, error `undefined` []
+2026-06-15 19:13:23.839 [info] [Terminal] RunInTerminalTool: shellIntegrationQuality=none at banner decision time []
+2026-06-15 19:13:28.610 [info] [Terminal] RunInTerminalTool: Command rewritten by FGe: Prepended with a space to exclude from shell history []
+2026-06-15 19:13:28.623 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'","find . -type d -name Assets","sort","head -100"]]
+2026-06-15 19:13:28.623 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands auto-approved [null]
+2026-06-15 19:13:28.623 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'' is approved by allow list rule: cd [null]
+2026-06-15 19:13:28.624 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'find . -type d -name Assets' is approved by allow list rule: find [null]
+2026-06-15 19:13:28.624 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'sort' is approved by allow list rule: sort [null]
+2026-06-15 19:13:28.624 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -100' is approved by allow list rule: head [null]
+2026-06-15 19:13:28.624 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -type d -name Assets | sort | head -100' has no matching auto approve entries [null]
+2026-06-15 19:13:28.634 [info] [Terminal] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-06-15 19:13:32.070 [info] [Terminal] RunInTerminalTool: Using `none` execute strategy for command ` cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -type d -name Assets | sort | head -100` []
+2026-06-15 19:13:34.127 [info] [Terminal] RunInTerminalTool: Finished `none` execute strategy with exitCode `undefined`, result.length `54`, error `undefined` []
+2026-06-15 19:13:34.127 [info] [Terminal] RunInTerminalTool: shellIntegrationQuality=none at banner decision time []
+2026-06-15 19:13:40.154 [info] [Terminal] RunInTerminalTool: Command rewritten by FGe: Prepended with a space to exclude from shell history []
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'","find . -maxdepth 8 \\( -type d -name Assets -o -name ProjectSettings -o -name Packages \\) -print","sort","head -200"]]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands auto-approved [null]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs'' is approved by allow list rule: cd [null]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'find . -maxdepth 8 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \) -print' is approved by allow list rule: find [null]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'sort' is approved by allow list rule: sort [null]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -200' is approved by allow list rule: head [null]
+2026-06-15 19:13:40.167 [info] [Terminal] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 8 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \) -print | sort | head -200' has no matching auto approve entries [null]
+2026-06-15 19:13:40.172 [info] [Terminal] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-06-15 19:13:45.042 [info] [Terminal] RunInTerminalTool: Using `none` execute strategy for command ` cd '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs' && find . -maxdepth 8 \( -type d -name Assets -o -name ProjectSettings -o -name Packages \) -print | sort | head -200` []
+2026-06-15 19:13:47.093 [info] [Terminal] RunInTerminalTool: Finished `none` execute strategy with exitCode `undefined`, result.length `56`, error `undefined` []
+2026-06-15 19:13:47.093 [info] [Terminal] RunInTerminalTool: shellIntegrationQuality=none at banner decision time []
+2026-06-15 19:34:59.047 [info] [Main] update#setState checking for updates
+2026-06-15 19:34:59.336 [info] [Main] update#setState idle
+2026-06-15 20:03:48.836 [info] [C# Dev Kit] Starting: Activating C# extension (version 2.140.9)
+2026-06-15 20:03:49.083 [info] [C#] Installing C# dependencies...
+2026-06-15 20:03:49.084 [info] [C#] 
+
+2026-06-15 20:03:49.084 [info] [C#] Platform: darwin, arm64
+
+2026-06-15 20:03:49.084 [info] [C#] 
+
+2026-06-15 20:03:49.084 [info] [C#] Downloading package 'Language server for Roslyn Copilot integration' 
+2026-06-15 20:03:49.355 [info] [C#] (47 KB)
+2026-06-15 20:03:49.355 [info] [C#] .......
+2026-06-15 20:03:49.392 [info] [C#] .......
+2026-06-15 20:03:49.393 [info] [C#] ......
+2026-06-15 20:03:49.393 [info] [C#]  Done!
+
+2026-06-15 20:03:49.395 [info] [C#] Validating download...
+
+2026-06-15 20:03:49.395 [info] [C#] Integrity Check succeeded.
+
+2026-06-15 20:03:49.395 [info] [C#] Installing package 'Language server for Roslyn Copilot integration'
+
+2026-06-15 20:03:49.395 [info] [C#] 
+
+2026-06-15 20:03:49.409 [info] [C#] Downloading package 'VSWebAssemblyBridge (Platform Agnostic)' 
+2026-06-15 20:03:49.779 [info] [C#] (4143 KB)
+2026-06-15 20:03:49.779 [info] [C#] .
+2026-06-15 20:03:49.831 [info] [C#] 
+2026-06-15 20:03:49.888 [info] [C#] 
+2026-06-15 20:03:49.940 [info] [C#] 
+2026-06-15 20:03:49.999 [info] [C#] 
+2026-06-15 20:03:50.000 [info] [C#] .
+2026-06-15 20:03:50.001 [info] [C#] 
+2026-06-15 20:03:50.052 [info] [C#] 
+2026-06-15 20:03:50.054 [info] [C#] 
+2026-06-15 20:03:50.173 [info] [C#] 
+2026-06-15 20:03:50.174 [info] [C#] .
+2026-06-15 20:03:50.175 [info] [C#] 
+2026-06-15 20:03:50.220 [info] [C#] 
+2026-06-15 20:03:50.221 [info] [C#] 
+2026-06-15 20:03:50.221 [info] [C#] 
+2026-06-15 20:03:50.229 [info] [C#] .
+2026-06-15 20:03:50.275 [info] [C#] 
+2026-06-15 20:03:50.275 [info] [C#] 
+2026-06-15 20:03:50.276 [info] [C#] 
+2026-06-15 20:03:50.282 [info] [C#] 
+2026-06-15 20:03:50.356 [info] [C#] .
+2026-06-15 20:03:50.357 [info] [C#] 
+2026-06-15 20:03:50.357 [info] [C#] 
+2026-06-15 20:03:50.358 [info] [C#] 
+2026-06-15 20:03:50.409 [info] [C#] 
+2026-06-15 20:03:50.409 [info] [C#] .
+2026-06-15 20:03:50.411 [info] [C#] 
+2026-06-15 20:03:50.412 [info] [C#] 
+2026-06-15 20:03:50.412 [info] [C#] 
+2026-06-15 20:03:50.463 [info] [C#] 
+2026-06-15 20:03:50.463 [info] [C#] .
+2026-06-15 20:03:50.464 [info] [C#] 
+2026-06-15 20:03:50.464 [info] [C#] 
+2026-06-15 20:03:50.465 [info] [C#] 
+2026-06-15 20:03:50.517 [info] [C#] 
+2026-06-15 20:03:50.518 [info] [C#] .
+2026-06-15 20:03:50.518 [info] [C#] 
+2026-06-15 20:03:50.519 [info] [C#] 
+2026-06-15 20:03:50.519 [info] [C#] 
+2026-06-15 20:03:50.573 [info] [C#] 
+2026-06-15 20:03:50.574 [info] [C#] .
+2026-06-15 20:03:50.575 [info] [C#] 
+2026-06-15 20:03:50.575 [info] [C#] 
+2026-06-15 20:03:50.576 [info] [C#] 
+2026-06-15 20:03:50.577 [info] [C#] 
+2026-06-15 20:03:50.698 [info] [C#] .
+2026-06-15 20:03:50.700 [info] [C#] 
+2026-06-15 20:03:50.701 [info] [C#] 
+2026-06-15 20:03:50.701 [info] [C#] 
+2026-06-15 20:03:50.702 [info] [C#] 
+2026-06-15 20:03:50.750 [info] [C#] .
+2026-06-15 20:03:50.751 [info] [C#] 
+2026-06-15 20:03:50.751 [info] [C#] 
+2026-06-15 20:03:50.752 [info] [C#] 
+2026-06-15 20:03:50.754 [info] [C#] 
+2026-06-15 20:03:50.754 [info] [C#] .
+2026-06-15 20:03:50.803 [info] [C#] 
+2026-06-15 20:03:50.805 [info] [C#] 
+2026-06-15 20:03:50.805 [info] [C#] 
+2026-06-15 20:03:50.806 [info] [C#] 
+2026-06-15 20:03:50.813 [info] [C#] .
+2026-06-15 20:03:50.814 [info] [C#] 
+2026-06-15 20:03:50.815 [info] [C#] 
+2026-06-15 20:03:50.863 [info] [C#] 
+2026-06-15 20:03:50.864 [info] [C#] 
+2026-06-15 20:03:50.864 [info] [C#] .
+2026-06-15 20:03:50.865 [info] [C#] 
+2026-06-15 20:03:50.866 [info] [C#] 
+2026-06-15 20:03:50.867 [info] [C#] 
+2026-06-15 20:03:50.868 [info] [C#] 
+2026-06-15 20:03:50.868 [info] [C#] .
+2026-06-15 20:03:50.920 [info] [C#] 
+2026-06-15 20:03:50.923 [info] [C#] 
+2026-06-15 20:03:50.923 [info] [C#] 
+2026-06-15 20:03:50.924 [info] [C#] 
+2026-06-15 20:03:50.925 [info] [C#] .
+2026-06-15 20:03:50.925 [info] [C#] 
+2026-06-15 20:03:50.925 [info] [C#] 
+2026-06-15 20:03:50.926 [info] [C#] 
+2026-06-15 20:03:50.977 [info] [C#] 
+2026-06-15 20:03:50.978 [info] [C#] .
+2026-06-15 20:03:50.979 [info] [C#] 
+2026-06-15 20:03:50.979 [info] [C#] 
+2026-06-15 20:03:50.979 [info] [C#] 
+2026-06-15 20:03:50.980 [info] [C#] 
+2026-06-15 20:03:50.981 [info] [C#] .
+2026-06-15 20:03:50.982 [info] [C#] 
+2026-06-15 20:03:51.033 [info] [C#] 
+2026-06-15 20:03:51.034 [info] [C#] 
+2026-06-15 20:03:51.034 [info] [C#] 
+2026-06-15 20:03:51.036 [info] [C#] .
+2026-06-15 20:03:51.036 [info] [C#] 
+2026-06-15 20:03:51.036 [info] [C#] 
+2026-06-15 20:03:51.037 [info] [C#] 
+2026-06-15 20:03:51.038 [info] [C#] 
+2026-06-15 20:03:51.038 [info] [C#] .
+2026-06-15 20:03:51.071 [info] [C#] 
+2026-06-15 20:03:51.088 [info] [C#] 
+2026-06-15 20:03:51.088 [info] [C#] 
+2026-06-15 20:03:51.219 [info] [C#] 
+2026-06-15 20:03:51.223 [info] [C#]  Done!
+
+2026-06-15 20:03:51.227 [info] [C#] Validating download...
+
+2026-06-15 20:03:51.227 [info] [C#] Integrity Check succeeded.
+
+2026-06-15 20:03:51.227 [info] [C#] Installing package 'VSWebAssemblyBridge (Platform Agnostic)'
+
+2026-06-15 20:03:51.228 [info] [C#] 
+
+2026-06-15 20:03:51.317 [info] [C#] Finished
+
+2026-06-15 20:03:51.317 [info] [C#] 
+
+2026-06-15 20:03:51.326 [info] [C# Dev Kit] Completed: Activating C# extension (version 2.140.9) (2490ms)
+2026-06-15 20:03:51.332 [info] [C#] The .NET SDK cannot be located: Error running dotnet --info: Error: Command failed: dotnet --info
+/bin/sh: dotnet: command not found
+
+
+/bin/sh: dotnet: command not found
+. .NET debugging will not be enabled. Make sure the .NET SDK is installed and is on the path.
+
+2026-06-15 20:03:51.367 [info] [C# Dev Kit] SDK install view suppressed by user setting
+2026-06-15 20:03:51.370 [info] [C# Dev Kit] Default solution: 
+2026-06-15 20:03:51.373 [info] [C#] Locating .NET runtime version 10.0.5
+2026-06-15 20:03:51.471 [info] [C# Dev Kit] No C# project is found in the workspace.
+2026-06-15 20:03:51.496 [info] [C#] Did not find .NET 10.0.5 on path, falling back to acquire runtime via ms-dotnettools.vscode-dotnet-runtime
+2026-06-15 20:04:01.275 [info] [C#] Dotnet path: /Users/quinncohen/Library/Application Support/Code/User/globalStorage/ms-dotnettools.vscode-dotnet-runtime/.dotnet/10.0.9~arm64~aspnetcore/dotnet
+2026-06-15 20:04:01.275 [info] [C#] Activating C# + C# Dev Kit...
+2026-06-15 20:04:02.488 [info] [C#] info: Program[0]
+2026-06-15 20:04:02.488 [info] [C#]       Server started with process ID 8275
+2026-06-15 20:04:03.588 [info] [C#] [Program] Language server initialized
+2026-06-15 20:04:03.589 [info] [C#] [Program] Monitoring client process 5927 for exit
+2026-06-15 20:04:03.959 [info] [C#] [initialized] [Microsoft.CodeAnalysis.LanguageServer.FileBasedPrograms.FileBasedProgramsEntryPointDiscovery] Finished discovery in '/Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs/snowrider3D' in 5 milliseconds
+2026-06-15 20:04:29.304 [error] [C# Dev Kit] IdeBenefitsSource: Failed to fetch entitlements. Error: 'Error: Request to https://api.subscriptions.visualstudio.microsoft.com/Me/Entitlements/IDEBenefits?api-version=2023-03-26&caller=vscode failed with status code: 401 and response ""'
+2026-06-15 20:04:30.574 [error] [C# Dev Kit] LicensingWebSource: Failed to fetch entitlements. Error: 'Error: Request to https://app.vssps.visualstudio.com/_apis/Licensing/ClientRights/VisualStudio?productVersion=17.0.0.0%20CSDEVKIT&edition=Professional&relType=release&machineId=00000000-0000-0000-0000-00000000000 failed with status code: 400 and response "{"$id":"1","innerException":null,"message":"Unsupported subject descriptor .","typeName":"System.ArgumentException, mscorlib","typeKey":"ArgumentException","errorCode":0,"eventId":0}"'
+2026-06-15 20:05:11.571 [error] [C# Dev Kit] IdeBenefitsSource: Failed to fetch entitlements. Error: 'Error: Request to https://api.subscriptions.visualstudio.microsoft.com/Me/Entitlements/IDEBenefits?api-version=2023-03-26&caller=vscode failed with status code: 401 and response ""'
+2026-06-15 20:26:52.655 [info] [Main] Extension host with pid 8675 exited with code: 0, signal: unknown.
+2026-06-15 20:27:52.413 [info] [C# Dev Kit] Starting: Spawn .NET server
+2026-06-15 20:27:52.414 [info] [C# Dev Kit] Using dotnet resolution provided by ".NET Install Tool"
+2026-06-15 20:27:52.415 [info] [C# Dev Kit - Test Explorer] Created Test Controller (Lightweight Test Experience)
+2026-06-15 20:27:52.415 [info] [C# Dev Kit - Test Explorer] Log verbosity: Info
+2026-06-15 20:27:52.415 [info] [C# Dev Kit - Test Explorer] C# Dev Kit version: 3.20.199
+2026-06-15 20:27:52.499 [info] [C# Dev Kit] Using existing .NET runtime at "/Users/quinncohen/Library/Application Support/Code/User/globalStorage/ms-dotnettools.vscode-dotnet-runtime/.dotnet/10.0.9~arm64~aspnetcore/dotnet" to load C# Dev Kit processes
+2026-06-15 20:27:52.519 [info] [C# Dev Kit] Could not find installed SDK
+2026-06-15 20:27:52.520 [info] [C# Dev Kit] ASP.NET runtime found, using ASP.NET runtimeconfig for project system host.
+2026-06-15 20:27:52.530 [info] [C# Dev Kit] vs-green server PID: 8757
+2026-06-15 20:27:54.349 [info] [C# Dev Kit] .NET server started and IPC established in 1828ms
+2026-06-15 20:27:54.356 [info] [C# Dev Kit] Completed: Spawn .NET server (1946ms)
+2026-06-15 20:27:54.570 [info] [C# Dev Kit] Starting: Initialize template service
+2026-06-15 20:27:54.570 [info] [C# Dev Kit] dotnet --version failed on /Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs/snowrider3D:
+	Error: Error: spawn dotnet ENOENT
+STDOUT:
+
+STDERR:
+
+2026-06-15 20:27:55.984 [info] [C# Dev Kit - Test Explorer] Initialized Test Explorer Server [8784]
+2026-06-15 20:27:56.017 [info] [C# Dev Kit - Test Explorer] Exception occurred while resolving SDK: Path to dotnet executable is not set. 
+The probed variables are: DOTNET_ROOT, DOTNET_HOST_PATH, DOTNET_MSBUILD_SDK_RESOLVER_CLI_DIR and PATH. 
+Make sure, that at least one of the listed variables points to the existing dotnet executable.
+2026-06-15 20:27:56.018 [error] [C# Dev Kit - Test Explorer] Initialization failed: Failed to find all versions of .NET Core MSBuild. Call to {0}. There may be more details in stderr.
+2026-06-15 20:27:56.019 [info] [C# Dev Kit - Test Explorer] No cached projects found.
+2026-06-15 20:27:56.357 [info] [C# Dev Kit] Querying process information for pshost using descriptor: [object Object] and got {"ProcessId":8783,"ProcessPath":"/Users/quinncohen/.vscode/extensions/ms-dotnettools.csdevkit-3.20.199-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-arm64/Microsoft.VisualStudio.Code.ServiceHost"}
+2026-06-15 20:27:56.357 [info] [C# Dev Kit] Discovered Project System Host (PID 8783) for pshost.
+2026-06-15 20:27:56.358 [info] [C# Dev Kit] Project System Host PID: 8783
+2026-06-15 20:30:23.678 [error] [Main] Blocked vscode-webview request vscode-webview://0esriga48kdf9ng0146i2bfprsurc5hs2ji6igtqc61g3v5njdov/index.html?id=854f2076-5399-4ae2-9fd6-8987db21410c&parentId=1&origin=f7f4ade4-10b2-4bdb-8c1d-b7ed7431440b&swVersion=5&extensionId=Anthropic.claude-code&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&purpose=webviewView
+2026-06-15 20:30:23.679 [error] [Main] Blocked vscode-webview request vscode-webview://0esriga48kdf9ng0146i2bfprsurc5hs2ji6igtqc61g3v5njdov/index.html?id=854f2076-5399-4ae2-9fd6-8987db21410c&parentId=1&origin=f7f4ade4-10b2-4bdb-8c1d-b7ed7431440b&swVersion=5&extensionId=Anthropic.claude-code&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&purpose=webviewView
+2026-06-15 20:33:13.993 [info] [C# Dev Kit] Starting: Initialize template service
+2026-06-15 20:33:13.994 [info] [C# Dev Kit] dotnet --version failed on /Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs/snowrider3D:
+	Error: Error: spawn dotnet ENOENT
+STDOUT:
+
+STDERR:
+
+2026-06-15 20:33:13.995 [info] [C# Dev Kit] Completed: Initialize template service (319432ms)
+2026-06-15 20:33:13.996 [error] [C# Dev Kit] Error while adding new project Error: Template service is not available
+2026-06-15 20:34:58.993 [info] [Main] update#setState checking for updates
+2026-06-15 20:34:59.143 [info] [Main] update#setState idle
+2026-06-15 20:40:01.754 [info] [C# Dev Kit] Starting: Initialize template service
+2026-06-15 20:40:01.755 [info] [C# Dev Kit] dotnet --version failed on /Users/quinncohen/Library/Mobile Documents/com~apple~CloudDocs/snowrider3D:
+	Error: Error: spawn dotnet ENOENT
+STDOUT:
+
+STDERR:
+
+2026-06-15 20:40:01.762 [info] [C# Dev Kit] Completed: Initialize template service (407805ms)
+2026-06-15 20:40:01.762 [error] [C# Dev Kit] Error while adding new project Error: Template service is not available
+2026-06-15 20:40:14.580 [info] [C# Dev Kit] Completed: Initialize template service (12828ms)
+2026-06-15 20:40:14.582 [error] [C# Dev Kit] Error while adding new project Error: Template service is not available
+2026-06-15 21:00:43.658 [error] [C# Dev Kit] IdeBenefitsSource: Failed to fetch entitlements. Error: 'Error: Request to https://api.subscriptions.visualstudio.microsoft.com/Me/Entitlements/IDEBenefits?api-version=2023-03-26&caller=vscode failed with status code: 401 and response ""'
